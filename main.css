@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap');
+:root{
+    --lang :"Red Hat Display";
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #4d97a98e;
+    
+}
+main{
+    margin: 0 auto;
+    max-width: 1440px; 
+    width:100%;
+    background-color: #FAFAFA;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding: 20px;
+}
+.header_cont{
+    margin-top: 64px;
+    height: 488px;
+    display: flex;
+}
+.left_image_cont{
+    width: 394px;
+    height: 303px;
+    position: relative;
+}
+#l3{
+    position:absolute;
+    right:0;
+    top:55PX;
+}
+#l1{
+    position: absolute;
+    top:55px;
+    left:0;
+}
+#l2{
+    position: absolute;
+    top:0;
+    left:125px;
+}
+#l4{
+    position: absolute;
+    left:0;
+    bottom: 0;
+}
+#l5{
+    position: absolute;
+    left:125px;
+    top:138px;
+}
+#l6{
+    position:absolute;
+    right: 0;
+    top:193px;
+}
+.header_text{
+    margin-top: 24px;
+    margin-left: 127px;
+    width: 448px;
+    height: 314px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+}
+h1{
+    font-family: var(--lang);
+    font-weight: 900;
+    font-size: 64px;
+    line-height: 110%;
+    text-align: center;
+    color:#28283D;
+}
+p{
+    
+    width:420px;
+    padding-top: 32px;
+    font-family: var(--lang);
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 150%;
+    text-align: center;
+    color:#87879D;
+}
+#download{
+    text-decoration: none;
+    font-family: var(--lang);
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 150%;
+    color:white;
+    border-radius: 29px;
+    padding: 16px 40px;
+    width: 193px;
+    height: 56px;
+    background-color: #4D96A9;
+}
+.buttons{
+    padding-top: 48px;
+}
+#about{
+    text-decoration: none;
+    font-family: var(--lang);
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 150%;
+    color: white;
+    border-radius: 29px;
+    padding: 16px 40px;
+    width: 193px;
+    height: 56px;
+    background-color: #855FB1;
+}
+span{
+    color:#8FE3F9
+}
