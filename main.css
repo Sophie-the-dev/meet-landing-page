@@ -104,6 +104,7 @@ p{
     width: 193px;
     height: 56px;
     background-color: #4D96A9;
+    transition: 0.5s;
 }
 .buttons{
     padding-top: 48px;
@@ -120,7 +121,45 @@ p{
     width: 193px;
     height: 56px;
     background-color: #855FB1;
+    transition: 0.5s;
+}
+#about:hover, #download:hover{
+    opacity: 0.8;
+    
 }
 span{
     color:#8FE3F9
+}
+.right_image_cont{
+    width: 394px;
+    height: 303px;
+    position: relative;
+    margin-left: 127px;
+    margin-top: 57px;
+}
+#r2{
+    position: absolute;
+    top:55px;
+    padding-left: 32px;
+    
+}
+#r3{
+    position:absolute;
+    right:0;
+    top:0;
+}
+#r6{
+    position: absolute;
+    bottom: 55px;
+    right: 0;
+}
+#r4{
+    position: absolute;
+    left: 0;
+    bottom: 55px;
+}
+#r5{
+    position: absolute;
+    bottom:0;
+    padding-left: 32px;
 }
